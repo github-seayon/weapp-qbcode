@@ -24,7 +24,11 @@ Qrcode({
   height: 200,
   canvasId: 'myQrcode',
   text: 'https://github.com/yingye',
-  image: '../../images/icon.png
+  image: {
+    imageResource: '../../images/icon.png,
+    destWidth: 100,
+    destHeight: 100
+  }
 })
 
 
