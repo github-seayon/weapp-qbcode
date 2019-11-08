@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<!--pages/main/index.wxml-->
+<view class="container-box">
+  <view class="img-box">
+    <image bindtap="previewImg" mode="widthFix" src="{{imagePath}}"></image>
+  </view>
+
+  <view class="input-row">
+    <label>内容</label>
+    <input name="text" value="{{text}}" type="text" maxlength="255" data-name="text" bindblur="handlerInput" bindchange="handlerInput" placeholder="{{placeholder}}"/>
+  </view>
+  <button class="mybtn" type="primary" bindtap="handlerBarcode" disabled="{{!canvasHidden}}">生成条形码</button>
+  <button class="mybtn" type="primary" bindtap="handlerQrcode" disabled="{{!canvasHidden}}">生成二维码</button>
+</view>
+<view class="canvas-box">
+  <canvas  hidden="{{canvasHidden}}" style="width: 686rpx;height: 160rpx;background:#f1f1f1;" canvas-id="{{canvasBarId}}"/>
+  <canvas  hidden="{{canvasHidden}}" style="width: 686rpx;height: 686rpx;background:#f1f1f1;" canvas-id="{{canvasQrId}}"/>
+</view>

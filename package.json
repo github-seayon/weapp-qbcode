@@ -1,0 +1,26 @@
+{
+  "name": "wx-qbcode",
+  "version": "0.0.1",
+  "description": "小程序一维码二维码生成",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "小程序",
+    "一维码",
+    "二维码"
+  ],
+  "author": "seayon",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "semver": "^6.3.0",
+    "webpack": "^4.41.2"
+  },
+  "dependencies": {
+    "regenerator-runtime": "^0.13.3"
+  }
+}
