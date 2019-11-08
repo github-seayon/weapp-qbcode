@@ -15,15 +15,15 @@ import { Qrcode, Barcode } from '../../miniprogram_npm/wxapp-qbcode/index';
 Barcode({
   width: 200,
   height: 200,
-  canvasId: 'myQrcode',
+  canvasId: 'canvasBarId',
   text: '3444556c55',
 })
 
 Qrcode({
   width: 200,
   height: 200,
-  canvasId: 'myQrcode',
-  text: 'https://github.com/yingye',
+  canvasId: 'canvasQrId',
+  text: 'https://github.com/github-seayon',
   image: {
     imageResource: '../../images/icon.png,
     destWidth: 100,
