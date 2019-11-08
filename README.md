@@ -38,7 +38,11 @@ Qrcode({
 
 **条形码示例**
 
-![avatar](./assets/images/example-barcode.jpeg)
+![avatar](./assets/images/exapmle-barcode.jpeg)
+
+**二维码示例**
+
+![avatar](./assets/images/example-qrcode.jpeg)
 
 ## Api
 

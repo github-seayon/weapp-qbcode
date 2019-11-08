@@ -9,8 +9,8 @@ Page({
     canvasQrId: 'qrcanvas',
     canvasHidden: true,
     imagePath: '',
-    placeholder: 'http://wxapp-union.com', // 默认二维码生成文本
-    text: 'http://wxapp-union.com',
+    placeholder: 'https://github.com/github-seayon', // 默认二维码生成文本
+    text: 'https://github.com/github-seayon',
     types: [{ name: '条形码', value: 'barcode' }, { name: '二维码', value: 'qrcode' }],
   },
   async onLoad() {
