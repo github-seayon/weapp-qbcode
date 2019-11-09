@@ -1,4 +1,4 @@
-# wxapp-qbcode
+# weapp-qbcode
 **在小程序中快速生成条形码、二维码**
 
 ## Usage
