@@ -78,7 +78,7 @@ width | 必须，二维码宽度，与canvas的width保持一致 | 375 |
 height | 必须，二维码高度，与canvas的height保持一致 | 160 |
 canvasId | 必须 canvas-id | 'canvasQrId' |
 text | 必须 条形码内容 | '4445t55ddd' |
-typeNumber | 非必须，二维码的计算模式，默认值-1容 | 8 |
+typeNumber | 非必须，二维码的计算模式，默认值-1 | 8 |
 correctLevel | 非必须，二维码纠错级别，默认值为高级，取值：{ L: 1, M: 0, Q: 3, H: 2 } | 1 |
 usingIn | 非必须，若在组件中使用，需要传入 | this |
 x | 非必须，二维码绘制的 x 轴起始位置，默认值0 | 100 |
