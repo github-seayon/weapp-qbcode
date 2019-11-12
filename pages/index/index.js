@@ -1,7 +1,7 @@
 // index.js
 import regeneratorRuntime from '../../miniprogram_npm/regenerator-runtime/index';
 
-import { Qrcode, Barcode } from '../../index';
+import { Qrcode, Barcode } from '../../dist/index';
 
 Page({
   data: {
